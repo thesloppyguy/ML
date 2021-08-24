@@ -31,7 +31,7 @@ for i in range(0, 1000):
     # removing tens and stopwords form the list
     ps = PorterStemmer()
     stopwords_list = stopwords.words('english')
-    # as we have deduced we need not in our training dataset we remove it from the set of words to be removed
+    # as we have deduced we need 'not' in our training dataset we remove it from the set of words to be removed
     stopwords_list.remove('not')
 
     review = [ps.stem(item)
