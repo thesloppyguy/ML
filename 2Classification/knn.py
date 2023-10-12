@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv("DATA/Social_Network_Ads.csv")
+dataset = pd.read_csv("0DATA/Social_Network_Ads.csv")
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
